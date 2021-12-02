@@ -3,7 +3,6 @@ var num = 0;
 function ChillamusicDD() {
     const music = new Audio('DD.mp3');
     music.play();
-    sp();
 }
 function Chillamusicangry() {
     const music = new Audio('NO.mp3');
@@ -25,6 +24,7 @@ window.addEventListener('click', () => {
         st()
         ChillamusicDD()
         setTimeout("alert('祈菈彩蛋 ヽ(°▽°)ノ')", 500)
+        setTimeout("sp()", 4500)
     }
 })
 const Chilla = new Date(2021, 3, 7);
