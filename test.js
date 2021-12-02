@@ -3,6 +3,7 @@ var num = 0;
 function ChillamusicDD() {
     const music = new Audio('DD.mp3');
     music.play();
+    sp()
 }
 function Chillamusicangry() {
     const music = new Audio('NO.mp3');
@@ -10,7 +11,10 @@ function Chillamusicangry() {
     music.play();
     st();
 }
-
+function sp() {
+    var body = document.getElementById("body");
+    body.style.backgroundRepeat = "no-repeat"
+}
 function st() {
     var body = document.getElementById("body");
     body.style.backgroundRepeat = "repeat"
