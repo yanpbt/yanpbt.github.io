@@ -3,7 +3,7 @@ var num = 0;
 function ChillamusicDD() {
     const music = new Audio('DD.mp3');
     music.play();
-    sp()
+    sp();
 }
 function Chillamusicangry() {
     const music = new Audio('NO.mp3');
