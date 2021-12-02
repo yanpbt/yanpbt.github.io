@@ -23,9 +23,9 @@ window.addEventListener('click', () => {
     if (num == 10) {
         st()
         ChillamusicDD()
-        setTimeout("sp()", 1000)
+        setTimeout("sp()", 500);
+        setTimeout("alert('祈菈彩蛋 ヽ(°▽°)ノ')", 1500);
         num = 0;
-        setTimeout("alert('祈菈彩蛋 ヽ(°▽°)ノ')", 2500)
     }
 })
 const Chilla = new Date(2021, 3, 7);
