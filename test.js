@@ -1,7 +1,7 @@
 //抓取網站
 function getData(pageName) {
     var req = new XMLHttpRequest();
-    req.open("get", "http://yanpbt.github.io/" + pageName)
+    req.open("get", "https://yanpbt.github.io/" + pageName)
     req.onload = function () {
         // alert(this.responseText);
         var content = document.getElementById("content")
