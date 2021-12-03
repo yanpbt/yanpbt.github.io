@@ -8,20 +8,29 @@ header{
     height: 10%;
     text-align:center;
     background-color: rgb(133, 43, 43,0.8);
+    margin: auto;
+    padding: 5px 0 ;
+    line-height: 20px;
+
+}
+
+.sp{
+    color: rgba(232, 235, 102, 0.8);
 }
 nav{
     width: 100%;
     height: 10%;
     display: flex;
     background-color: rgba(95, 223, 83, 0.8);
+    /* padding: 1px; */
 }
 nav button{
     height: auto;
     width: auto;
-    padding: 1px;
-    margin: 1px;
+    /* padding: 1px; */
+    /* margin: 1px; */
     text-align-last: 1px;
-    background-color: rgb(92, 201, 98);
+    background-color: rgb(42, 135, 158);
     font-size: 20px;
 }
 nav .st{
@@ -29,7 +38,7 @@ nav .st{
 }
 main{
     display: flex;
-    height: 900px;
+    height: 100%;
     width: 100%;
 }
 main article{
@@ -38,14 +47,28 @@ main article{
     background-color: rgba(66, 113, 216, 0.8);
     text-align:center;
 }
+.twitter-tweet{
+    margin: 0px auto
+}
+.pa{
+    margin: 0px auto;
+    display:block;
+}
+
 main aside{
     width: 25%;
-    height: 100%;
+    height: auto;
     background-color: rgba(21, 79, 134, 0.8);
     text-align:center;
+    line-height: 20px;
+}
+aside p{
+    color: rgba(211, 199, 199, 0.2);
 }
 footer{
     width: 100%;
     background-color: rgba(146, 44, 129, 0.8);
     text-align:center;
+    padding: 5px 0 ;
+    
 }
