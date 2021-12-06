@@ -42,7 +42,7 @@ main{
     width: 100%;
 }
 main article{
-    width: 75%;
+    width: 75% left;
     height: 100%;
     background-color: rgba(66, 113, 216, 0.8);
     text-align:center;
@@ -51,12 +51,14 @@ main article{
     margin: 0px auto;
 }
 .pa{
-    margin: 0px auto;
-    display:block;
+    width: auto;
+    height: auto;
+    /* margin: 0px auto;
+    display:block; */
 }
 
 main aside{
-    width: 25%;
+    width: 25% left;
     height: auto;
     background-color: rgba(21, 79, 134, 0.8);
     text-align:center;
