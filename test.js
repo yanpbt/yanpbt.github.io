@@ -80,7 +80,7 @@ var Chillad = Chilla.getDate();
 var BirthdayM = Birthday.getMonth();
 var Birthdayd = Birthday.getDate();
 var year = y - 2021;
-console.log(year);
+//console.log(year);
 if (m == ChillaM) {
     if (d == Chillad) {
         setTimeout("alert('祈菈'+year+'周年')", 100)
