@@ -53,6 +53,8 @@ main article{
 .pa{
     width: auto;
     height: auto;
+    /* margin: 0px auto;
+    display:block; */
 }
 
 main aside{
