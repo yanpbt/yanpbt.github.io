@@ -37,12 +37,11 @@ nav .st{
     color: crimson;
 }
 main{
-    display: flex;
     height: 100%;
     width: 100%;
 }
 main article{
-    width: 75% left;
+    width: 75% ;
     height: 100%;
     background-color: rgba(66, 113, 216, 0.8);
     text-align:center;
@@ -58,7 +57,7 @@ main article{
 }
 
 main aside{
-    width: 25% left;
+    width: 25% ;
     height: auto;
     background-color: rgba(21, 79, 134, 0.8);
     text-align:center;
