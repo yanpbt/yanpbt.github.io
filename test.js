@@ -38,31 +38,18 @@ function rickrollsp() {
     rickmusic.pause();
 }
 //-----------
-//切換回76背景
-function sp() {
-    var body = document.getElementById("body");
-    //body.style.backgroundRepeat = "no-repeat"
-    body.style.backgroundImage = "url(76.gif)"
-}
-//-----------
-//切換成rickroll背景
-function st() {
-    var body = document.getElementById("body");
-    //body.style.backgroundRepeat = "repeat"
-    body.style.backgroundImage ="url(rickroll.gif)"
-}
-//-----------
 //滑鼠點擊次數彩蛋
 var num = 0;
 window.addEventListener('click', () => {
     num++;
-    if (num == 76) {
-        st()
+    if (num == 10) {
+        // st()
         rickrollst()
-        setTimeout("sp()", 10000)
+        // setTimeout("sp()", 10000)
         setTimeout("rickrollsp()", 10000)
         num = 0;
-        setTimeout("alert('騙你的 ヽ(°▽°)ノ')", 10800)
+        // setTimeout("alert('騙你的 ヽ(°▽°)ノ')", 10800)
+        $('#rickrollst').modal('show')
     }
 })
 //-----------
