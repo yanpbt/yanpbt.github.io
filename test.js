@@ -51,6 +51,7 @@ window.addEventListener('click', () => {
 })
 YOASOBI = document.getElementById("YOASOBI");
 YOASOBI.volume = 0.1;
+YOASOBI.play();
 //-----------
 //節日判斷
 const Chilla = new Date(2021, 3, 7);
