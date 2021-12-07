@@ -42,13 +42,10 @@ function rickrollsp() {
 var num = 0;
 window.addEventListener('click', () => {
     num++;
-    if (num == 10) {
-        // st()
+    if (num == 76) {
         rickrollst()
-        // setTimeout("sp()", 10000)
         setTimeout("rickrollsp()", 10000)
         num = 0;
-        // setTimeout("alert('騙你的 ヽ(°▽°)ノ')", 10800)
         $('#rickrollst').modal('show')
     }
 })
