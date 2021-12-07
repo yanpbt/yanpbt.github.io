@@ -27,6 +27,9 @@ function Chillamusicangry() {
     st();
     setTimeout("sp()", 20000)
 }
+YOASOBI = document.getElementById("YOASOBI");
+YOASOBI.volume = 0.1;
+YOASOBI.play();
 //-----------
 //rickroll音樂
 const rickmusic = new Audio("Rick Astley.mp3")
@@ -42,16 +45,16 @@ function rickrollsp() {
 var num = 0;
 window.addEventListener('click', () => {
     num++;
-    if (num == 76) {
+    if (num == 10) {
+        // st()
         rickrollst()
+        // setTimeout("sp()", 10000)
         setTimeout("rickrollsp()", 10000)
         num = 0;
+        // setTimeout("alert('騙你的 ヽ(°▽°)ノ')", 10800)
         $('#rickrollst').modal('show')
     }
 })
-YOASOBI = document.getElementById("YOASOBI");
-YOASOBI.volume = 0.1;
-YOASOBI.play();
 //-----------
 //節日判斷
 const Chilla = new Date(2021, 3, 7);
