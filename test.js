@@ -29,11 +29,7 @@ function Chillamusicangry() {
 }
 YOASOBI = document.getElementById("YOASOBI");
 YOASOBI.volume = 0.1;
-YOASOBI.play();
-setTimeout(() =>{
-	YOASOBI.pause()
-	YOASOBI.load()
-},10)
+
 //-----------
 //rickroll音樂
 const rickmusic = new Audio("Rick Astley.mp3")
